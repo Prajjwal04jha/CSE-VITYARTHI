@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Model downloads
+sentence_transformers/*
+!sentence_transformers/.keep
+
+# Vector DB JSON file
+vector_db.json
+
+# Gradio temp files
+gradio_cache/
+gradio_tmp/
+
+# Logs
+logs/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Python build
+dist/
+build/
+*.egg-info/
